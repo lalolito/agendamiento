@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Api\CitasController;
+use App\Http\Controllers\CitasController;
 
 Route::get('/citas', [CitasController::class, 'index']);
 Route::get('/cita/{id}', [CitasController::class, 'show']);
